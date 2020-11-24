@@ -1,0 +1,69 @@
+﻿  Camera.cpp
+  Mesh.cpp
+  OpenGLCourse.cpp
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.h(16,35): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.h(17,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\OpenGLCourse.cpp(100,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Shader.cpp
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Shader.cpp(122,36): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+  Texture.cpp
+  Window.cpp
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.h(16,35): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.h(17,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(128,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(129,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(133,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(134,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(136,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(137,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\OpenGLCourse\Window.cpp(79): warning C4715: 'Window::Initialize': not all control paths return a value
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "public: void __cdecl Mesh::ClearMesh(void)" (?ClearMesh@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: void __cdecl Mesh::ClearMesh(void)" (?ClearMesh@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "public: void __cdecl Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QEAAXPEAMPEAIII@Z)
+OpenGLCourse.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "public: bool __cdecl Window::getShouldClose(void)" (?getShouldClose@Window@@QEAA_NXZ)
+OpenGLCourse.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+OpenGLCourse.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+OpenGLCourse.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "public: void __cdecl Window::swapBuffers(void)" (?swapBuffers@Window@@QEAAXXZ)
+OpenGLCourse.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function main
+OpenGLCourse.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function main
+Shader.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: void __cdecl Shader::ClearShader(void)" (?ClearShader@Shader@@QEAAXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "private: void __cdecl Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AEAAXIPEBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "private: void __cdecl Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AEAAXPEBD0@Z)
+Texture.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "public: void __cdecl Texture::UseTexture(void)" (?UseTexture@Texture@@QEAAXXZ)
+Texture.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "public: void __cdecl Texture::LoadTexture(void)" (?LoadTexture@Texture@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetWindowUserPointer referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwGetWindowUserPointer referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPEAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwSetInputMode referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "private: void __cdecl Window::CreateCallbacks(void)" (?CreateCallbacks@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "private: void __cdecl Window::CreateCallbacks(void)" (?CreateCallbacks@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function "public: int __cdecl Window::Initialize(void)" (?Initialize@Window@@QEAAHXZ)
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\\..\External_Libs\GLEW\glew-2.1.0\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\\..\External_Libs\GLFW\glfw-3.3.2\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\TaoDaFen\Desktop\workspace\OpenGL\x64\Debug\OpenGLCourse.exe : fatal error LNK1120: 45 unresolved externals
